@@ -1,0 +1,13 @@
+header{
+    background-color: black;
+    height: 20vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerTitle{
+    color:white;
+    font-size: 40px;
+}

@@ -1,0 +1,20 @@
+#test{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 60vh;
+    align-items: center;
+}
+.records{
+    width: 50vw;
+    float: left;
+}
+ #gameCounter{
+    display: flex;
+    background-color:cyan;
+    height:10vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+ }
