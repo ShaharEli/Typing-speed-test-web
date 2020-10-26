@@ -34,7 +34,7 @@ function Test() {
                     history.map((item,index)=>{
                    return   <div className="records" key={index}>
                        <div>
-                           grade:{item.grade}/{item.word.length} ({Math.round(item.grade/item.word.length)})
+                           grade:{item.grade}/{item.word.length} ({Math.round(item.grade/item.word.length)*100}%)
                         </div>
                         <div>
                         word: {item.word}

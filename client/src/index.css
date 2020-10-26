@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
+  background-color: cornflowerblue;
+  color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
