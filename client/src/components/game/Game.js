@@ -57,8 +57,7 @@ function Game({ end }) {
   useEffect(() => {
     setWord(randomWords());
     setLoading(false);
-    const timerInterval = setInterval(() => setTime((prev) => prev + 1), 1000);
-    return clearInterval(timerInterval);
+    setInterval(() => setTime((prev) => prev + 1), 1000);
   }, []);
   const fade = useSpring({
     from: {
