@@ -1,0 +1,25 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 100px;
+}
+
+#welcome-title {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.logout {
+  padding: 10px;
+  background-color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dropNCrop {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+}

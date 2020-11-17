@@ -1,13 +1,22 @@
-header{
-    background-color: black;
-    height: 20vh;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  background-color: black;
+  height: 20vh;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#headerTitle{
-    color:white;
-    font-size: 40px;
+#headerTitle {
+  color: white;
+  font-size: 40px;
+}
+.header-links {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 40vw;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
